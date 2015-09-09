@@ -1,0 +1,21 @@
+New PC Set-up
+
+After installing git...
+
+$ git config --global user.name "Aztechs0"
+$ git config --global user.email "Aztechs0"
+
+$ git config --global core.editor notepad
+
+$ git config --global core.autocrlf true
+
+
+
+
+
+Reference: https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration
+
+
+Note: For Linux or MAC, use this:
+
+$ git config --global core.autocrlf input
