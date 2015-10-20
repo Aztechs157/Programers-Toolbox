@@ -1,6 +1,38 @@
-New PC Set-up
+------------------------ 
+ Git Set-up on a new PC
+------------------------
 
-After installing git...
+Download git from http://git-scm.com/downloads
+
+During installation, check these additional options:
+
+1. Select Components
+   [ ] Additional icons
+      [ ] In the Quick Launch 
+      [ ] On the Desktop
+   [x] Windows Explorer Integration
+      [x] Git Bash Here
+      [x] Git GUI Here
+   [x] Associate .git* configuration files with the default text editor
+   [ ] Associate .sh files to be run with Bash    <<---<< UNCHECK THIS ITEM <<---<<
+   [ ] Use a TrueType font in all console windows
+2. Select Start Menu Folder
+   Git
+3. Adjust your path Environment
+   [x] Use Git from Git bash only
+   [ ] Use Git from the Windows Command Prompt
+   [ ] Use Git and optional Unix tools from the Windows Command Prompt
+4. Configuring the line ending conversions
+   [x] Checkout Windows-style, commit Unix-style line endings
+   [ ] Checkout as-is, commit Unix-style line endings
+   [ ] Checkout as-is, commit-as-is
+5. Configuring terminal emulator
+   [ ] Use MinTTY
+   [x] Use Windows default console window
+6. Confiure Experimental performance Tweaks
+   (Check none of these)
+
+After installing git, open a git bash window and enter these commands.  Replace the zero in "Aztechs0" with the PC number.
 
 $ git config --global user.name "Aztechs0"
 $ git config --global user.email "Aztechs0"
@@ -9,12 +41,10 @@ $ git config --global core.editor notepad
 
 $ git config --global core.autocrlf true
 
-
-
-
-
+----------------------
+ Appendix / Reference
+----------------------
 Reference: https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration
-
 
 Note: For Linux or MAC, use this:
 
