@@ -1,0 +1,80 @@
+==================================
+ Basic Steps for a new PC set-up:
+==================================
+
+
+1. Turn off Windows Updates
+   
+    Start Menu > Control Panel > Windows Update
+    Select "Change Settings" on left
+    Set Important updates to:
+      "Download important updated but let me choose when to install them"
+
+
+2. Install Chrome
+
+    https://www.google.com/chrome/
+    Create toolbar bookmarks for:
+       http://wpilib.screenstepslive.com/s
+       https://github.com/Aztechs157
+
+
+3. Install Java JDK x64
+
+    http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+
+
+4. Install "Eclipse IDE for Java Developers"
+
+    http://www.eclipse.org/downloads/
+
+    Install in the C:\eclipse\eclipse-java-mars-R-win32-x86_64\ folder (update path with the version).
+
+    Place shortcut to eclipse.exe on desktop and start menu for all users.
+
+
+5. Follow instrucitons in screenstep live to download the WPILib Robot Development Environment
+
+    http://wpilib.screenstepslive.com/s
+ 
+    Path: 2016 FRC Control System > FRC Java Programming > Installing Eclipse (C++/Java)
+
+
+6. Follow instrucitons in screenstep live to Install the National Instruments "FRC Update Suite"
+
+    http://wpilib.screenstepslive.com/s
+
+    Path: 2016 FRC Control System > FRC Java Programming > Installing the FRC 2016 Update Suite (All Languages)
+
+    For 2016:  http://ni.com/download/cds/view/p/id/5773/lang/en
+
+
+7. Install git.  Use default settings; include the Windows Explorer Integration "Git Bash Here" and "Git GUI Here"
+
+    http://git-scm.com/downloads
+
+
+8. Configure git with these commans at the git bash prompt.  Repalce Aztechs0 with the laptop #
+
+   $ git config --global user.name "Aztechs0"
+   $ git config --global user.email "Aztechs0"
+   $ git config --global core.editor notepad
+
+   # For Linux or MAc:
+   $ git config --global core.autocrlf input
+
+   # For Windows:
+   $ git config --global core.autocrlf true
+
+
+9. In Eclipse, set the default Git folder:
+
+   Select: Window > Preferences > Team > Git
+   Next to "Default Repository", click "Variable..." and select "workspace_loc"
+
+
+10. Install Beyond Compare for all users with default settings
+
+    http://www.scootersoftware.com/download.php
+
+    
