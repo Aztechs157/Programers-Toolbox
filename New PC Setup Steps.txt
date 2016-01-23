@@ -69,11 +69,19 @@
 
 9. In Eclipse, set the default Git folder:
 
-   Select: Window > Preferences > Team > Git
-   Next to "Default Repository", click "Variable..." and select "workspace_loc"
+   a. Select: Window > Preferences > Team > Git
+   b. Next to "Default Repository", click "Variable..." and select "workspace_loc"
 
 
-10. Install Beyond Compare for all users with default settings
+10. In Eclipse, setup the Aztechs Java format:
+    a. Download "Aztechs Java Fomat For Eclipse.xml" from https://github.com/Aztechs157/Programers-Toolbox
+    b. In Eclipse, select Window > Preferences > Java > Code Style > Formatter
+    c. Select Import....
+    d. Import "Aztechs Java Fomat For Eclipse.xml"
+    e. Make sure that is the select Active Profile.
+
+
+11. Install Beyond Compare for all users with default settings
 
     http://www.scootersoftware.com/download.php
 
