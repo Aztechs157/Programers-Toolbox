@@ -21,7 +21,7 @@
 
 3. Install Java JDK x64
 
-    http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+    http://www.oracle.com/technetwork/java/javase/downloads/index.html
 
 
 4. Install "Eclipse IDE for Java Developers"
@@ -77,4 +77,3 @@
 
     http://www.scootersoftware.com/download.php
 
-    
